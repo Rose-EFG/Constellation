@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF 
+  xmlns:Constellation="http://example.org/" 
+  xmlns:ore="http://www.openarchives.org/ore/terms/" 
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdac="http://rdaregistry.info/Elements/c/"
+  xmlns:rdaw="http://rdaregistry.info/Elements/w/"
+  xmlns:edm="http://www.europeana.eu/schemas/edm/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:oai="http://www.openarchives.org/OAI/2.0/"
+  xmlns:dcterms="http://purl.org/dc/terms/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:fpr="http://www.filmstandards.org/schemas/filmportal_relations#">
+  <!--/adlibXML/recordList/record-->
+        <edm:ProvidedCHO rdf:about="8f4229df-8e40-4e7c-82f0-f3907514e1d0"><!--/adlibXML/recordList/record/guid-->
+            <dc:title xml:lang="de">Laterna Magica Spielzeugkiste</dc:title><!--/adlibXML/recordList/record/Title/title /adlibXML/recordList/record/Title/title.language/value/@lang-->
+            <dc:title xml:lang="en">Laterna Magica toy box</dc:title>
+            <dc:description xml:lang="de">Holzkiste mit darin enthaltener Laterna Magica und Slides. Auf der Rückseite ist die Abbildung einer Laterna-Magica-Vorführung zu sehen: ein kleiner Junge projiziert wahrscheinlich für seine Familie mit einer Laterna Magica eine Szenerie an die Wand, während ein anderer Junge einen Vortrag dazu hält.</dc:description><!--/adlibXML/recordList/record/Description/description/value  /adlibXML/recordList/record/Description/description/value/@lang-->
+            <dc:description xml:lang="en">Wooden box with a magic lantern and slides inside. On the back is a picture of a magic lantern demonstration: a little boy projects a scene on the wall with a magic lantern, probably for his family, while another boy gives a lecture on it.</dc:description><!--/adlibXML/recordList/record/Description/description/value  /adlibXML/recordList/record/Description/description/value/@lang-->
+            <dc:type rdf:resource="8818ed5a-97ad-4254-b36f-4e1626d9bc08"/><!--/adlibXML/recordList/record/Object_name/object_name/guid-->
+            <!--Reference to another archive object that is contained in this object or contains this object; could also be mapped into the broad relation dcterms:references-->
+            <dcterms:isPartOf rdf:resource="a3987059-ba67-4335-87d3-e56a48526b05"/><!--/adlibXML/recordList/record/Part_of/part_of_reference/guid-->
+            <dcterms:hasPart rdf:resource="f7413da6-d515-431f-b83e-bbc375547cd1"/><!--/adlibXML/recordList/record/Parts/parts_reference/guid-->
+            <dc:creator rdf:resource="9f59e2c6-1950-40a4-9ddd-01d30f431792"/><!--/adlibXML/recordList/record/Production/creator/guid-->
+            <dcterms:references rdf:resource="044af70c-d638-4af1-9afa-7292d803fa2f"/><!--/adlibXML/recordList/record/Content_person/content.person.name/guid-->
+            <dcterms:references rdf:resource="https://www.filmportal.de/4897fef4df1b41f190fbd7d71c0d3c8e"/><!--this is where the film work would be; this is an example film work not really related to the object-->
+            <dcterms:isPartOf rdf:resource="http://example.org/GUIDofTheCollection"/><!--if an object is part of a lager collection-->
+            <edm:currentLocation rdf:resource="d462fd70-b4c7-49e7-952b-4e318586bc8b"/><!--/adlibXML/recordList/record/current_location.name/guid-->
+            <!-- Place of Production? -->
+            <dc:date>Circa 1900</dc:date> <!--/adlibXML/recordList/record/Production_date-->
+            <dc:rights>This is where the Rights Holder would be named if applicable</dc:rights><!--/adlibXML/recordList/record/Rights/rights.holder/name/value??-->
+        </edm:ProvidedCHO>
+        <skos:Concept rdf:about="8818ed5a-97ad-4254-b36f-4e1626d9bc08"><!--/adlibXML/recordList/record/Object_name/object_name/guid-->
+            <skos:prefLabel xml:lang="de">Laterna Magica</skos:prefLabel><!--/adlibXML/recordList/record/Object_name/object_name/term/value   /adlibXML/recordList/record/Object_name/object_name/term/value/@lang-->
+            <skos:definition xml:lang="de">Die Laterna magica (lateinisch für „Zauberlaterne“) oder Skioptikon ist ein Projektionsgerät, das vom 17. bis ins 20. Jahrhundert hinein in ganz Europa verbreitet war und sich im 19. Jahrhundert zum Massenmedium entwickelte. Sie bildete die technisch-apparative Zusammenfassung bekannter optischer Effekte in einem einzigen Instrument. Die verschiedenen Formen der Bildprojektion der Laterna magica werden unter der Bezeichnung „Projektionskunst“ zusammengefasst.</skos:definition><!--/adlibXML/recordList/record/Object_name/object_name/scope_note-->
+            <skos:broader rdf:resource="f38c41ca-f803-4db3-8581-a0dc8c88b45c"/><!--/adlibXML/recordList/record/Object_name/object_name/broader_term/guid-->
+            <skos:narrower rdf:resource="f38c41ca-f803-4db3-8581-a0dc8c88b45c"/><!--/adlibXML/recordList/record/Object_name/object_name/narrower_term/guid-->
+            <skos:exaktMatch rdf:resource="https://d-nb.info/gnd/4034677-8"/><!--/adlibXML/recordList/record/Object_name/object_name/PIDother/PID_other_URI-->
+        </skos:Concept>
+        <edm:Agent rdf:about="9f59e2c6-1950-40a4-9ddd-01d30f431792">
+            <skos:prefLabel xml:lang="zxx">Sultan-Zigaretten-Verlag, Ernst Karl Müller</skos:prefLabel><!--/adlibXML/recordList/record/Production/creator/name/value-->
+            <owl:sameAs rdf:resource="https://d-nb.info/gnd/16343188-7"/><!--/adlibXML/recordList/record/Production/creator/PIDother/PID_other_URI-->
+        </edm:Agent>
+        <edm:Agent rdf:about="044af70c-d638-4af1-9afa-7292d803fa2f"><!--/adlibXML/recordList/record/Content_person/content.person.name/guid-->
+            <skos:prefLabel xml:lang="zxx">Garbo, Greta</skos:prefLabel><!--/adlibXML/recordList/record/Content_person/content.person.name/name/value-->
+            <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q5443"/><!--/adlibXML/recordList/record/Content_person/content.person.name/PIDother/PID_other_URI-->
+            <!-- back reference to the object for agents depicted in Objects -->
+            <fpr:isDepictedIn rdf:resource="8f4229df-8e40-4e7c-82f0-f3907514e1d0"/><!--/adlibXML/recordList/record/guid-->
+        </edm:Agent>
+        <edm:Agent rdf:about="https://www.filmportal.de/7F7DBC14AC1B4046A876E4C4EE549AA9"><!--this would be the director of the film work-->
+            <skos:prefLabel xml:lang="zxx">Robert Thalheim</skos:prefLabel>
+            <owl:sameAs rdf:resource="http://d-nb.info/gnd/141168323"/>
+            <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q99871"/>
+        </edm:Agent>
+        <edm:Agent rdf:about="002"><!--this is the creator of the Storyline-->
+            <skos:prefLabel xml:lang="zxx">Kristina Rose</skos:prefLabel>
+        </edm:Agent>
+        <rdac:C10001 rdf:about="https://www.filmportal.de/4897fef4df1b41f190fbd7d71c0d3c8e"><!--Class for the Film Work; example record below-->
+            <rdaw:P10004 rdf:resource="http://filmportal.vocnet.org/category/c00003"/>
+            <rdaw:P10066 rdf:resource="https://www.filmportal.de/7F7DBC14AC1B4046A876E4C4EE549AA9"/>
+            <rdaw:P10218 rdf:resource="http://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE"/>
+            <rdaw:P10219>2006/2007</rdaw:P10219>
+            <rdaw:P10223 xml:lang="zxx">Am Ende kommen Touristen</rdaw:P10223>
+            <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q451280"/>
+        </rdac:C10001>
+        <Constellation:Location rdf:about="d462fd70-b4c7-49e7-952b-4e318586bc8b"><!--/adlibXML/recordList/record/current_location.name/guid-->
+            <skos:prefLabel xml:lang="de">Dauerausstellung 2</skos:prefLabel><!--/adlibXML/recordList/record/current_location.name/name-->
+        </Constellation:Location>
+        <Constellation:Collection rdf:about="http://example.org/GUIDofTheCollection">
+            <skos:prefLabel xml:lang="de">Sammlung Max Mustermann</skos:prefLabel>
+        </Constellation:Collection>
+        <edm:WebResource rdf:about="https://upload.wikimedia.org/wikipedia/commons/9/9d/Laterna_magica_Aulendorf.jpg">
+            <dc:rights>Rights holder for the digital representation, if applicable</dc:rights>
+            <edm:rights rdf:resource="https://creativecommons.org/licenses/by/3.0"/>
+        </edm:WebResource>
+        <ore:Aggregation rdf:about="Aggregation_Example">
+            <edm:aggregatedCHO rdf:resource="8f4229df-8e40-4e7c-82f0-f3907514e1d0"/><!--/adlibXML/recordList/record/guid-->
+            <edm:dataProvider rdf:resource="http://ld.zdb-services.de/resource/organisations/DE-2768"/><!--/adlibXML/recordList/record/institution.name/PIDother/PID_other_URI-->
+            <edm:isShownAt rdf:resource="https://de.wikipedia.org/wiki/Laterna_magica"/><!--Link to a public catalogue entry, if provided; here a dummy link-->
+            <edm:isShownBy rdf:resource="https://upload.wikimedia.org/wikipedia/commons/9/9d/Laterna_magica_Aulendorf.jpg"/><!--direct link to a digital representation of the object; here a dummy link-->
+            <edm:object rdf:resource="https://upload.wikimedia.org/wikipedia/commons/9/9d/Laterna_magica_Aulendorf.jpg"/><!--link to a thumbnail; here a dummy link-->
+            <edm:rights rdf:resource="https://creativecommons.org/licenses/by/3.0"/><!--most strict rights statement about the object and the digital representation(s)-->
+      </ore:Aggregation>
+      <Constellation:Story rdf:about="001">
+        <dc:title xml:lang="de">Laterna Magicas, die tollsten Objekte der Welt</dc:title>
+        <dc:title xml:lang="en">Magic lanterns, the greatest objects in the world</dc:title>
+        <dc:creator rdf:resource="002"/>
+        <Constellation:hasObjects rdf:resource="Aggregation_Example"/><!--repeatable; all objects mentioned in a Story-->
+        <Constellation:hasObjects rdf:resource="Aggregation2"/>
+        <Constellation:hasLinks rdf:resource="003"/><!--repeatable; all links that form a Story-->
+        <Constellation:hasLinks rdf:resource="004"/>
+      </Constellation:Story>
+      <Constellation:Link rdf:about="003">
+        <Constellation:Text xml:lang="de">Lorem Ipsum; Text, der von Aggregation2 auf die hier in edm:ProvidedCHO beschriebene Laterna Magica hinführt (= Aggregation_Example)</Constellation:Text>
+        <Constellation:Text xml:lang="de">Lorem Ipsum; Text that leads from Aggregation2 to our Magic Lantern described in edm:ProvidedCHO (= Aggregation_Example)</Constellation:Text>
+        <Constellation:isFollowedBy rdf:resource="Aggregation_Example"/>
+        <Constellation:isPreceededBy rdf:resource="Aggregation2"/>
+      </Constellation:Link>
+    </rdf:RDF>
