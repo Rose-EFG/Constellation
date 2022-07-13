@@ -1,0 +1,90 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix ex: <http://example.org/> .
+@prefix fpr: <http://www.filmstandards.org/schemas/filmportal_relations#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix rdac: <http://rdaregistry.info/Elements/c/> .
+@prefix rdaw: <http://rdaregistry.info/Elements/w/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ex:001 a ex:Story ;
+    ex:hasLinks ex:003,
+        ex:004 ;
+    ex:hasObjects ex:Aggregation2,
+        ex:Aggregation_Example ;
+    dc:creator ex:002 ;
+    dc:title "Laterna Magicas, die tollsten Objekte der Welt"@de,
+        "Magic lanterns, the greatest objects in the world"@en .
+
+ex:002 a edm:Agent ;
+    skos:prefLabel "Kristina Rose"@zxx .
+
+ex:003 a ex:Link ;
+    ex:Text "Lorem Ipsum; Text that leads from Aggregation2 to our Magic Lantern described in edm:ProvidedCHO (= Aggregation_Example)"@de,
+        "Lorem Ipsum; Text, der von Aggregation2 auf die hier in edm:ProvidedCHO beschriebene Laterna Magica hinführt (= Aggregation_Example)"@de ;
+    ex:isFollowedBy ex:Aggregation_Example ;
+    ex:isPreceededBy ex:Aggregation2 .
+
+ex:044af70c-d638-4af1-9afa-7292d803fa2f a edm:Agent ;
+    fpr:isDepictedIn ex:8f4229df-8e40-4e7c-82f0-f3907514e1d0 ;
+    = <http://www.wikidata.org/entity/Q5443> ;
+    skos:prefLabel "Garbo, Greta"@zxx .
+
+ex:8818ed5a-97ad-4254-b36f-4e1626d9bc08 a skos:Concept ;
+    skos:broader ex:f38c41ca-f803-4db3-8581-a0dc8c88b45c ;
+    skos:definition "Die Laterna magica (lateinisch für „Zauberlaterne“) oder Skioptikon ist ein Projektionsgerät, das vom 17. bis ins 20. Jahrhundert hinein in ganz Europa verbreitet war und sich im 19. Jahrhundert zum Massenmedium entwickelte. Sie bildete die technisch-apparative Zusammenfassung bekannter optischer Effekte in einem einzigen Instrument. Die verschiedenen Formen der Bildprojektion der Laterna magica werden unter der Bezeichnung „Projektionskunst“ zusammengefasst."@de ;
+    skos:exaktMatch <https://d-nb.info/gnd/4034677-8> ;
+    skos:narrower ex:f38c41ca-f803-4db3-8581-a0dc8c88b45c ;
+    skos:prefLabel "Laterna Magica"@de .
+
+ex:9f59e2c6-1950-40a4-9ddd-01d30f431792 a edm:Agent ;
+    = <https://d-nb.info/gnd/16343188-7> ;
+    skos:prefLabel "Sultan-Zigaretten-Verlag, Ernst Karl Müller"@zxx .
+
+ex:GUIDofTheCollection a ex:Collection ;
+    skos:prefLabel "Sammlung Max Mustermann"@de .
+
+ex:d462fd70-b4c7-49e7-952b-4e318586bc8b a ex:Location ;
+    skos:prefLabel "Dauerausstellung 2"@de .
+
+<https://www.filmportal.de/4897fef4df1b41f190fbd7d71c0d3c8e> a rdac:C10001 ;
+    rdaw:P10004 <http://filmportal.vocnet.org/category/c00003> ;
+    rdaw:P10066 <https://www.filmportal.de/7F7DBC14AC1B4046A876E4C4EE549AA9> ;
+    rdaw:P10218 <http://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE> ;
+    rdaw:P10219 "2006/2007" ;
+    rdaw:P10223 "Am Ende kommen Touristen"@zxx ;
+    = <http://www.wikidata.org/entity/Q451280> .
+
+<https://www.filmportal.de/7F7DBC14AC1B4046A876E4C4EE549AA9> a edm:Agent ;
+    = <http://d-nb.info/gnd/141168323>,
+        <http://www.wikidata.org/entity/Q99871> ;
+    skos:prefLabel "Robert Thalheim"@zxx .
+
+ex:8f4229df-8e40-4e7c-82f0-f3907514e1d0 a edm:ProvidedCHO ;
+    dc:creator ex:9f59e2c6-1950-40a4-9ddd-01d30f431792 ;
+    dc:date "Circa 1900" ;
+    dc:description "Holzkiste mit darin enthaltener Laterna Magica und Slides. Auf der Rückseite ist die Abbildung einer Laterna-Magica-Vorführung zu sehen: ein kleiner Junge projiziert wahrscheinlich für seine Familie mit einer Laterna Magica eine Szenerie an die Wand, während ein anderer Junge einen Vortrag dazu hält."@de,
+        "Wooden box with a magic lantern and slides inside. On the back is a picture of a magic lantern demonstration: a little boy projects a scene on the wall with a magic lantern, probably for his family, while another boy gives a lecture on it."@en ;
+    dc:rights "This is where the Rights Holder would be named if applicable" ;
+    dc:title "Laterna Magica Spielzeugkiste"@de,
+        "Laterna Magica toy box"@en ;
+    dc:type ex:8818ed5a-97ad-4254-b36f-4e1626d9bc08 ;
+    dcterms:hasPart ex:f7413da6-d515-431f-b83e-bbc375547cd1 ;
+    dcterms:isPartOf ex:GUIDofTheCollection,
+        ex:a3987059-ba67-4335-87d3-e56a48526b05 ;
+    dcterms:references ex:044af70c-d638-4af1-9afa-7292d803fa2f,
+        <https://www.filmportal.de/4897fef4df1b41f190fbd7d71c0d3c8e> ;
+    edm:currentLocation ex:d462fd70-b4c7-49e7-952b-4e318586bc8b .
+
+ex:Aggregation_Example a ore:Aggregation ;
+    edm:aggregatedCHO ex:8f4229df-8e40-4e7c-82f0-f3907514e1d0 ;
+    edm:dataProvider <http://ld.zdb-services.de/resource/organisations/DE-2768> ;
+    edm:isShownAt <https://de.wikipedia.org/wiki/Laterna_magica> ;
+    edm:isShownBy <https://upload.wikimedia.org/wikipedia/commons/9/9d/Laterna_magica_Aulendorf.jpg> ;
+    edm:object <https://upload.wikimedia.org/wikipedia/commons/9/9d/Laterna_magica_Aulendorf.jpg> ;
+    edm:rights <https://creativecommons.org/licenses/by/3.0> .
+
+<https://upload.wikimedia.org/wikipedia/commons/9/9d/Laterna_magica_Aulendorf.jpg> a edm:WebResource ;
+    dc:rights "Rights holder for the digital representation, if applicable" ;
+    edm:rights <https://creativecommons.org/licenses/by/3.0> .

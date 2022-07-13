@@ -1,0 +1,354 @@
+[
+  {
+    "@id": "http://example.org/9f59e2c6-1950-40a4-9ddd-01d30f431792",
+    "@type": [
+      "http://www.europeana.eu/schemas/edm/Agent"
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://d-nb.info/gnd/16343188-7"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "zxx",
+        "@value": "Sultan-Zigaretten-Verlag, Ernst Karl Müller"
+      }
+    ]
+  },
+  {
+    "@id": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Laterna_magica_Aulendorf.jpg",
+    "@type": [
+      "http://www.europeana.eu/schemas/edm/WebResource"
+    ],
+    "http://purl.org/dc/elements/1.1/rights": [
+      {
+        "@value": "Rights holder for the digital representation, if applicable"
+      }
+    ],
+    "http://www.europeana.eu/schemas/edm/rights": [
+      {
+        "@id": "https://creativecommons.org/licenses/by/3.0"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.filmportal.de/4897fef4df1b41f190fbd7d71c0d3c8e",
+    "@type": [
+      "http://rdaregistry.info/Elements/c/C10001"
+    ],
+    "http://rdaregistry.info/Elements/w/P10004": [
+      {
+        "@id": "http://filmportal.vocnet.org/category/c00003"
+      }
+    ],
+    "http://rdaregistry.info/Elements/w/P10066": [
+      {
+        "@id": "https://www.filmportal.de/7F7DBC14AC1B4046A876E4C4EE549AA9"
+      }
+    ],
+    "http://rdaregistry.info/Elements/w/P10218": [
+      {
+        "@id": "http://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE"
+      }
+    ],
+    "http://rdaregistry.info/Elements/w/P10219": [
+      {
+        "@value": "2006/2007"
+      }
+    ],
+    "http://rdaregistry.info/Elements/w/P10223": [
+      {
+        "@language": "zxx",
+        "@value": "Am Ende kommen Touristen"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q451280"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/8818ed5a-97ad-4254-b36f-4e1626d9bc08",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "@id": "http://example.org/f38c41ca-f803-4db3-8581-a0dc8c88b45c"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "de",
+        "@value": "Die Laterna magica (lateinisch für „Zauberlaterne“) oder Skioptikon ist ein Projektionsgerät, das vom 17. bis ins 20. Jahrhundert hinein in ganz Europa verbreitet war und sich im 19. Jahrhundert zum Massenmedium entwickelte. Sie bildete die technisch-apparative Zusammenfassung bekannter optischer Effekte in einem einzigen Instrument. Die verschiedenen Formen der Bildprojektion der Laterna magica werden unter der Bezeichnung „Projektionskunst“ zusammengefasst."
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#exaktMatch": [
+      {
+        "@id": "https://d-nb.info/gnd/4034677-8"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "@id": "http://example.org/f38c41ca-f803-4db3-8581-a0dc8c88b45c"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Laterna Magica"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/GUIDofTheCollection",
+    "@type": [
+      "http://example.org/Collection"
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Sammlung Max Mustermann"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/8f4229df-8e40-4e7c-82f0-f3907514e1d0",
+    "@type": [
+      "http://www.europeana.eu/schemas/edm/ProvidedCHO"
+    ],
+    "http://purl.org/dc/elements/1.1/creator": [
+      {
+        "@id": "http://example.org/9f59e2c6-1950-40a4-9ddd-01d30f431792"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/date": [
+      {
+        "@value": "Circa 1900"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/description": [
+      {
+        "@language": "en",
+        "@value": "Wooden box with a magic lantern and slides inside. On the back is a picture of a magic lantern demonstration: a little boy projects a scene on the wall with a magic lantern, probably for his family, while another boy gives a lecture on it."
+      },
+      {
+        "@language": "de",
+        "@value": "Holzkiste mit darin enthaltener Laterna Magica und Slides. Auf der Rückseite ist die Abbildung einer Laterna-Magica-Vorführung zu sehen: ein kleiner Junge projiziert wahrscheinlich für seine Familie mit einer Laterna Magica eine Szenerie an die Wand, während ein anderer Junge einen Vortrag dazu hält."
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/rights": [
+      {
+        "@value": "This is where the Rights Holder would be named if applicable"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/title": [
+      {
+        "@language": "en",
+        "@value": "Laterna Magica toy box"
+      },
+      {
+        "@language": "de",
+        "@value": "Laterna Magica Spielzeugkiste"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/type": [
+      {
+        "@id": "http://example.org/8818ed5a-97ad-4254-b36f-4e1626d9bc08"
+      }
+    ],
+    "http://purl.org/dc/terms/hasPart": [
+      {
+        "@id": "http://example.org/f7413da6-d515-431f-b83e-bbc375547cd1"
+      }
+    ],
+    "http://purl.org/dc/terms/isPartOf": [
+      {
+        "@id": "http://example.org/a3987059-ba67-4335-87d3-e56a48526b05"
+      },
+      {
+        "@id": "http://example.org/GUIDofTheCollection"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "http://example.org/044af70c-d638-4af1-9afa-7292d803fa2f"
+      },
+      {
+        "@id": "https://www.filmportal.de/4897fef4df1b41f190fbd7d71c0d3c8e"
+      }
+    ],
+    "http://www.europeana.eu/schemas/edm/currentLocation": [
+      {
+        "@id": "http://example.org/d462fd70-b4c7-49e7-952b-4e318586bc8b"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/044af70c-d638-4af1-9afa-7292d803fa2f",
+    "@type": [
+      "http://www.europeana.eu/schemas/edm/Agent"
+    ],
+    "http://www.filmstandards.org/schemas/filmportal_relations#isDepictedIn": [
+      {
+        "@id": "http://example.org/8f4229df-8e40-4e7c-82f0-f3907514e1d0"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5443"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "zxx",
+        "@value": "Garbo, Greta"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/Aggregation_Example",
+    "@type": [
+      "http://www.openarchives.org/ore/terms/Aggregation"
+    ],
+    "http://www.europeana.eu/schemas/edm/aggregatedCHO": [
+      {
+        "@id": "http://example.org/8f4229df-8e40-4e7c-82f0-f3907514e1d0"
+      }
+    ],
+    "http://www.europeana.eu/schemas/edm/dataProvider": [
+      {
+        "@id": "http://ld.zdb-services.de/resource/organisations/DE-2768"
+      }
+    ],
+    "http://www.europeana.eu/schemas/edm/isShownAt": [
+      {
+        "@id": "https://de.wikipedia.org/wiki/Laterna_magica"
+      }
+    ],
+    "http://www.europeana.eu/schemas/edm/isShownBy": [
+      {
+        "@id": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Laterna_magica_Aulendorf.jpg"
+      }
+    ],
+    "http://www.europeana.eu/schemas/edm/object": [
+      {
+        "@id": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Laterna_magica_Aulendorf.jpg"
+      }
+    ],
+    "http://www.europeana.eu/schemas/edm/rights": [
+      {
+        "@id": "https://creativecommons.org/licenses/by/3.0"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/003",
+    "@type": [
+      "http://example.org/Link"
+    ],
+    "http://example.org/Text": [
+      {
+        "@language": "de",
+        "@value": "Lorem Ipsum; Text, der von Aggregation2 auf die hier in edm:ProvidedCHO beschriebene Laterna Magica hinführt (= Aggregation_Example)"
+      },
+      {
+        "@language": "de",
+        "@value": "Lorem Ipsum; Text that leads from Aggregation2 to our Magic Lantern described in edm:ProvidedCHO (= Aggregation_Example)"
+      }
+    ],
+    "http://example.org/isFollowedBy": [
+      {
+        "@id": "http://example.org/Aggregation_Example"
+      }
+    ],
+    "http://example.org/isPreceededBy": [
+      {
+        "@id": "http://example.org/Aggregation2"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/002",
+    "@type": [
+      "http://www.europeana.eu/schemas/edm/Agent"
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "zxx",
+        "@value": "Kristina Rose"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.filmportal.de/7F7DBC14AC1B4046A876E4C4EE549AA9",
+    "@type": [
+      "http://www.europeana.eu/schemas/edm/Agent"
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q99871"
+      },
+      {
+        "@id": "http://d-nb.info/gnd/141168323"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "zxx",
+        "@value": "Robert Thalheim"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/001",
+    "@type": [
+      "http://example.org/Story"
+    ],
+    "http://example.org/hasLinks": [
+      {
+        "@id": "http://example.org/004"
+      },
+      {
+        "@id": "http://example.org/003"
+      }
+    ],
+    "http://example.org/hasObjects": [
+      {
+        "@id": "http://example.org/Aggregation_Example"
+      },
+      {
+        "@id": "http://example.org/Aggregation2"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/creator": [
+      {
+        "@id": "http://example.org/002"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/title": [
+      {
+        "@language": "en",
+        "@value": "Magic lanterns, the greatest objects in the world"
+      },
+      {
+        "@language": "de",
+        "@value": "Laterna Magicas, die tollsten Objekte der Welt"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/d462fd70-b4c7-49e7-952b-4e318586bc8b",
+    "@type": [
+      "http://example.org/Location"
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "de",
+        "@value": "Dauerausstellung 2"
+      }
+    ]
+  }
+]
