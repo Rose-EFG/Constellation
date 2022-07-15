@@ -14,7 +14,7 @@
   xmlns:fpr="http://www.filmstandards.org/schemas/filmportal_relations#"
   xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/">
   <!--/adlibXML/recordList/record-->
-        <edm:ProvidedCHO rdf:about="8f4229df-8e40-4e7c-82f0-f3907514e1d0"><!--/adlibXML/recordList/record/guid-->
+        <edm:ProvidedCHO rdf:about="8f4229df-8e40-4e7c-82f0-f3907514e1d0"><!--/adlibXML/recordList/record/guid--> <!--this is the Class "Archive Object (A/B Object)" in Miro-->
             <dc:title xml:lang="de">Laterna Magica Spielzeugkiste</dc:title><!--/adlibXML/recordList/record/Title/title /adlibXML/recordList/record/Title/title.language/value/@lang-->
             <dc:title xml:lang="en">Laterna Magica toy box</dc:title>
             <dc:description xml:lang="de">Holzkiste mit darin enthaltener Laterna Magica und Slides. Auf der Rückseite ist die Abbildung einer Laterna-Magica-Vorführung zu sehen: ein kleiner Junge projiziert wahrscheinlich für seine Familie mit einer Laterna Magica eine Szenerie an die Wand, während ein anderer Junge einen Vortrag dazu hält.</dc:description><!--/adlibXML/recordList/record/Description/description/value  /adlibXML/recordList/record/Description/description/value/@lang-->
