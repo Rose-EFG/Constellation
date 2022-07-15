@@ -11,7 +11,8 @@
   xmlns:oai="http://www.openarchives.org/OAI/2.0/"
   xmlns:dcterms="http://purl.org/dc/terms/" 
   xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:fpr="http://www.filmstandards.org/schemas/filmportal_relations#">
+  xmlns:fpr="http://www.filmstandards.org/schemas/filmportal_relations#"
+  xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/">
   <!--/adlibXML/recordList/record-->
         <edm:ProvidedCHO rdf:about="8f4229df-8e40-4e7c-82f0-f3907514e1d0"><!--/adlibXML/recordList/record/guid-->
             <dc:title xml:lang="de">Laterna Magica Spielzeugkiste</dc:title><!--/adlibXML/recordList/record/Title/title /adlibXML/recordList/record/Title/title.language/value/@lang-->
@@ -25,7 +26,7 @@
             <dc:creator rdf:resource="9f59e2c6-1950-40a4-9ddd-01d30f431792"/><!--/adlibXML/recordList/record/Production/creator/guid-->
             <dcterms:references rdf:resource="044af70c-d638-4af1-9afa-7292d803fa2f"/><!--/adlibXML/recordList/record/Content_person/content.person.name/guid-->
             <dcterms:references rdf:resource="https://www.filmportal.de/4897fef4df1b41f190fbd7d71c0d3c8e"/><!--this is where the film work would be; this is an example film work not really related to the object-->
-            <dcterms:isPartOf rdf:resource="http://example.org/GUIDofTheCollection"/><!--if an object is part of a lager collection-->
+            <crm:P46i_forms_part_of rdf:resource="http://example.org/GUIDofTheCollection"/><!--if an object is part of a lager collection-->
             <edm:currentLocation rdf:resource="d462fd70-b4c7-49e7-952b-4e318586bc8b"/><!--/adlibXML/recordList/record/current_location.name/guid-->
             <!-- Place of Production? -->
             <dc:date>Circa 1900</dc:date> <!--/adlibXML/recordList/record/Production_date-->
@@ -64,12 +65,13 @@
             <rdaw:P10223 xml:lang="zxx">Am Ende kommen Touristen</rdaw:P10223>
             <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q451280"/>
         </rdac:C10001>
-        <Constellation:Location rdf:about="d462fd70-b4c7-49e7-952b-4e318586bc8b"><!--/adlibXML/recordList/record/current_location.name/guid-->
+        <edm:Place rdf:about="d462fd70-b4c7-49e7-952b-4e318586bc8b"><!--/adlibXML/recordList/record/current_location.name/guid-->
             <skos:prefLabel xml:lang="de">Dauerausstellung 2</skos:prefLabel><!--/adlibXML/recordList/record/current_location.name/name-->
-        </Constellation:Location>
-        <Constellation:Collection rdf:about="http://example.org/GUIDofTheCollection">
-            <skos:prefLabel xml:lang="de">Sammlung Max Mustermann</skos:prefLabel>
-        </Constellation:Collection>
+        </edm:Place>
+        <crm:E78_Curated_Holding rdf:about="http://example.org/GUIDofTheCollection"> <!--schema.org/collection? CRM collection/curated holding (E78) http://www.cidoc-crm.org/cidoc-crm/E78_Curated_Holding -->
+            <crm:P102_Has_Title xml:lang="de">Sammlung Max Mustermann</crm:P102_Has_Title> <!--schema.org/name? CRM hasTitle (P102) http://www.cidoc-crm.org/cidoc-crm/P102_Has_Title-->
+            <crm:P46_is_composed_of rdf:resource="8f4229df-8e40-4e7c-82f0-f3907514e1d0"/>
+        </crm:E78_Curated_Holding>
         <edm:WebResource rdf:about="https://upload.wikimedia.org/wikipedia/commons/9/9d/Laterna_magica_Aulendorf.jpg">
             <dc:rights>Rights holder for the digital representation, if applicable</dc:rights>
             <edm:rights rdf:resource="https://creativecommons.org/licenses/by/3.0"/>
@@ -78,7 +80,8 @@
             <edm:aggregatedCHO rdf:resource="8f4229df-8e40-4e7c-82f0-f3907514e1d0"/><!--/adlibXML/recordList/record/guid-->
             <edm:dataProvider rdf:resource="http://ld.zdb-services.de/resource/organisations/DE-2768"/><!--/adlibXML/recordList/record/institution.name/PIDother/PID_other_URI-->
             <edm:isShownAt rdf:resource="https://de.wikipedia.org/wiki/Laterna_magica"/><!--Link to a public catalogue entry, if provided; here a dummy link-->
-            <edm:isShownBy rdf:resource="https://upload.wikimedia.org/wikipedia/commons/9/9d/Laterna_magica_Aulendorf.jpg"/><!--direct link to a digital representation of the object; here a dummy link-->
+            <edm:isShownBy rdf:resource="https://upload.wikimedia.org/wikipedia/commons/9/9d/Laterna_magica_Aulendorf.jpg"/><!--direct link to the main digital representation of the object; here a dummy link-->
+            <edm:hasView rdf:resource="..."/><!--for other web representations of the object; repeatable-->
             <edm:object rdf:resource="https://upload.wikimedia.org/wikipedia/commons/9/9d/Laterna_magica_Aulendorf.jpg"/><!--link to a thumbnail; here a dummy link-->
             <edm:rights rdf:resource="https://creativecommons.org/licenses/by/3.0"/><!--most strict rights statement about the object and the digital representation(s)-->
       </ore:Aggregation>
@@ -97,4 +100,6 @@
         <Constellation:isFollowedBy rdf:resource="Aggregation_Example"/>
         <Constellation:isPreceededBy rdf:resource="Aggregation2"/>
       </Constellation:Link>
+      <Constellation:DFF_Object rdf:about="12345">
+      </Constellation:DFF_Object>
     </rdf:RDF>
