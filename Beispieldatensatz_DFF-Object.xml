@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF 
+  xmlns:Constellation="http://example.org/" 
+  xmlns:ore="http://www.openarchives.org/ore/terms/" 
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdac="http://rdaregistry.info/Elements/c/"
+  xmlns:rdaw="http://rdaregistry.info/Elements/w/"
+  xmlns:edm="http://www.europeana.eu/schemas/edm/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:oai="http://www.openarchives.org/OAI/2.0/"
+  xmlns:dcterms="http://purl.org/dc/terms/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:fpr="http://www.filmstandards.org/schemas/filmportal_relations#"
+  xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/">
+  <!--/adlibXML/recordList/record-->
+        <Constellation:DFF_Object rdf:about="12345"> <!--Class "C Objekt" in Miro-->
+            <dc:title xml:lang="de">Podcast über die Laterna Magica</dc:title>
+            <dc:description xml:lang="de">Frauke spricht mit Thomas über sein Lieblingsobjekt: die Laterna Magica mit einer Abbildung von Greta Garbo</dc:description>
+            <dc:description xml:lang="de">Frauke talks with Thomas about his favourite collection object: the Magic Lantern with a picture of Greta Garbo</dc:description>
+            <dcterms:references rdf:resource="044af70c-d638-4af1-9afa-7292d803fa2f"/><!--the Match from a DFF Object to a Person would need to happen in the Constellation CMS or in the DAMS; or would it be possible in Axiell Collections? -->
+            <dcterms:references rdf:resource="8f4229df-8e40-4e7c-82f0-f3907514e1d0"/><!--the Match from a Collection Object to a DFF Object would need to happen in the Constellation CMS or in the DAMS; or would it be possible in Axiell Collections -->
+            <dcterms:isPartOf rdf:resource="78910"/>
+        </Constellation:DFF_Object>
+        <Constellation:DFF_Project rdf:about="78910"> <!--Class "Project Series" in Miro-->
+            <dc:title xml:lang="de">Alles ist Film – Der Podcast des DFF</dc:title>
+            <dc:title xml:lang="en">Everything is Film – the DFF Podcast</dc:title>
+            <!--do we want to have a description?-->
+            <dc:description xml:lang="de">Der Podcast „Alles ist Film“ blickt hinter die Kulissen des DFF – Deutsches Filminstitut &amp; Filmmuseum, das auf einzigartige Weise Museum, Kino, Archive, Sammlungen, Festivals, digitale Plattformen und vieles mehr vereint. Der Podcast widmet sich der Kino- und Filmkultur – mit Gesprächen rund um aktuelle Projekte, überregionale Film-Themen und filmhistorische Objekte sowie Interviews mit Filmschaffenden aus aller Welt, die im Kino des DFF zu Gast waren. Für uns ist alles Film und Film alles!</dc:description>
+            <dc:description xml:lang="en">The podcast "Everything is Film" takes a look behind the scenes of the DFF - Deutsches Filminstitut &amp; Filmmuseum, which uniquely combines museum, cinema, archives, collections, festivals, digital platforms and much more. The podcast is dedicated to cinema and film culture - with conversations around current projects, supra-regional film topics and film historical objects as well as interviews with filmmakers from all over the world who have been guests at the DFF's cinema. For us, everything is film and film is everything!</dc:description>
+        </Constellation:DFF_Project>
+        <edm:Agent rdf:about="044af70c-d638-4af1-9afa-7292d803fa2f">
+            <skos:prefLabel xml:lang="zxx">Garbo, Greta</skos:prefLabel>
+            <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q5443"/>
+            <!-- back reference to the object for agents depicted in Objects -->
+            <fpr:isDepictedIn rdf:resource="8f4229df-8e40-4e7c-82f0-f3907514e1d0"/>
+        </edm:Agent>
+        <!--this is the object from the other example record; included here for reference; -->
+        <edm:ProvidedCHO rdf:about="8f4229df-8e40-4e7c-82f0-f3907514e1d0">
+            <dc:title xml:lang="de">Laterna Magica Spielzeugkiste</dc:title>
+            <dc:title xml:lang="en">Laterna Magica toy box</dc:title>
+            <dc:description xml:lang="de">Holzkiste mit darin enthaltener Laterna Magica und Slides. Auf der Rückseite ist die Abbildung einer Laterna-Magica-Vorführung zu sehen: ein kleiner Junge projiziert wahrscheinlich für seine Familie mit einer Laterna Magica eine Szenerie an die Wand, während ein anderer Junge einen Vortrag dazu hält.</dc:description><!--/adlibXML/recordList/record/Description/description/value  /adlibXML/recordList/record/Description/description/value/@lang-->
+            <dc:description xml:lang="en">Wooden box with a magic lantern and slides inside. On the back is a picture of a magic lantern demonstration: a little boy projects a scene on the wall with a magic lantern, probably for his family, while another boy gives a lecture on it.</dc:description><!--/adlibXML/recordList/record/Description/description/value  /adlibXML/recordList/record/Description/description/value/@lang-->
+            <dc:type rdf:resource="8818ed5a-97ad-4254-b36f-4e1626d9bc08"/>
+            <!--Reference to another archive object that is contained in this object or contains this object; could also be mapped into the broad relation dcterms:references-->
+            <dcterms:isPartOf rdf:resource="a3987059-ba67-4335-87d3-e56a48526b05"/>
+            <dcterms:hasPart rdf:resource="f7413da6-d515-431f-b83e-bbc375547cd1"/>
+            <dc:creator rdf:resource="9f59e2c6-1950-40a4-9ddd-01d30f431792"/>
+            <dcterms:references rdf:resource="044af70c-d638-4af1-9afa-7292d803fa2f"/>
+            <crm:P46i_forms_part_of rdf:resource="http://example.org/GUIDofTheCollection"/>
+            <edm:currentLocation rdf:resource="d462fd70-b4c7-49e7-952b-4e318586bc8b"/>
+            <!-- Place of Production? -->
+            <dc:date>Circa 1900</dc:date> <!--/adlibXML/recordList/record/Production_date-->
+            <dc:rights>This is where the Rights Holder would be named if applicable</dc:rights>
+        </edm:ProvidedCHO>
+        <edm:WebResource rdf:about="https://eu3ldk.podcaster.de/download/Blick_in_die_DA_eins_Laterna_magica_final.mp3">
+            <dc:rights>DFF - Deutsches Filminstitut &amp; Filmmuseum</dc:rights>
+            <edm:rights rdf:resource="https://creativecommons.org/licenses/by/3.0"/>
+        </edm:WebResource>
+        <ore:Aggregation rdf:about="Aggregation_Example3">
+            <Constellation:aggregatedDFFObject rdf:resource="12345"/>
+            <edm:dataProvider rdf:resource="http://ld.zdb-services.de/resource/organisations/DE-2768"/>
+            <edm:isShownAt rdf:resource="https://www.dff.film/podcast-laterna-magica/"/><!--Link to a website with the object in context-->
+            <edm:isShownBy rdf:resource="https://eu3ldk.podcaster.de/download/Blick_in_die_DA_eins_Laterna_magica_final.mp3"/><!--direct link to the main digital representation of the object; here the link from the webpage; should come from DAMS instead-->
+            <edm:hasView rdf:resource="..."/><!--for other web representations of the object; repeatable-->
+            <edm:object rdf:resource="..."/><!--link to a thumbnail; what should be here in case of a sound object?-->
+            <edm:rights rdf:resource="https://creativecommons.org/licenses/by/3.0"/><!--most strict rights statement about the object and the digital representation(s)-->
+      </ore:Aggregation>
+    </rdf:RDF>
