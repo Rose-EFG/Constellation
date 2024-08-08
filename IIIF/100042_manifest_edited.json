@@ -1,0 +1,677 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://dlcs-trial.digirati.io/iiif-resource/5/manifest/32",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Designoscope und zugehöriger Karton"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Jahr"
+        ]
+      },
+      "value": {
+        "en": [
+          "circa 1930"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Herstellungsort"
+        ]
+      },
+      "value": {
+        "en": [
+          "Großbritannien"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Inventarnummer"
+        ]
+      },
+      "value": {
+        "en": [
+          "100043"
+        ]
+      }
+    }
+  ],
+  "requiredStatement": {
+    "label": {
+      "en": [
+        "Attribution"
+      ]
+    },
+    "value": {
+      "en": [
+        "Roanna Rahman"
+      ]
+    }
+  },
+  "rights": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "thumbnail": [
+    {
+      "id": "https://dlcs-trial.digirati.io/thumbs/5/32/86863100-40b9-434d-8320-dc0d99572273_1/full/106,200/0/default.jpg",
+      "type": "Image",
+      "format": "image/jpeg",
+      "service": [
+        {
+          "@id": "https://dlcs-trial.digirati.io/thumbs/v2/5/32/86863100-40b9-434d-8320-dc0d99572273_1",
+          "@type": "ImageService2",
+          "profile": "http://iiif.io/api/image/2/level0.json",
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "sizes": [
+            {
+              "width": 541,
+              "height": 1024
+            },
+            {
+              "width": 211,
+              "height": 400
+            },
+            {
+              "width": 106,
+              "height": 200
+            },
+            {
+              "width": 53,
+              "height": 100
+            }
+          ]
+        },
+        {
+          "@context": "http://iiif.io/api/image/3/context.json",
+          "id": "https://dlcs-trial.digirati.io/thumbs/5/32/86863100-40b9-434d-8320-dc0d99572273_1",
+          "type": "ImageService3",
+          "profile": "level0",
+          "sizes": [
+            {
+              "width": 541,
+              "height": 1024
+            },
+            {
+              "width": 211,
+              "height": 400
+            },
+            {
+              "width": 106,
+              "height": 200
+            },
+            {
+              "width": 53,
+              "height": 100
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "https://dlcs-trial.digirati.io/iiif-resource/5/manifest/32/canvas/b9sepd8hfdc-lz9r14y0",
+      "type": "Canvas",
+      "height": 5388,
+      "width": 2846,
+      "label": {
+        "en": [
+          "Gerät"
+        ]
+      },
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Quelle"
+            ]
+          },
+          "value": {
+            "en": [
+              "DFF - Deutsches Filminstitut & Filmmuseum"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Datum"
+            ]
+          },
+          "value": {
+            "en": [
+              "24.10.2022"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Foto"
+            ]
+          },
+          "value": {
+            "en": [
+              "Roanna Rahman"
+            ]
+          }
+        }
+      ],
+      "requiredStatement": {
+        "label": {
+          "en": [
+            "Attribution"
+          ]
+        },
+        "value": {
+          "en": [
+            "Roanna Rahman"
+          ]
+        }
+      },
+      "rights": "http://creativecommons.org/licenses/by-sa/4.0/",
+      "items": [
+        {
+          "id": "https://dlcs-trial.digirati.io/iiif-resource/5/manifest/32/canvas/b9sepd8hfdc-lz9r14y0/annotation-page/napgu4miwqb-lz9r14y0",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlcs-trial.digirati.io/iiif-resource/5/manifest/32/annotation/o0l98k5i8da-lz9r14xw",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://dlcs-trial.digirati.io/iiif-resource/5/manifest/32/canvas/b9sepd8hfdc-lz9r14y0",
+              "body": {
+                "id": "https://dlcs-trial.digirati.io/iiif-img/v2/5/32/86863100-40b9-434d-8320-dc0d99572273_1/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 5388,
+                "width": 2846,
+                "service": [
+                  {
+                    "@id": "https://dlcs-trial.digirati.io/iiif-img/v2/5/32/86863100-40b9-434d-8320-dc0d99572273_1",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 2846,
+                    "height": 5388,
+                    "sizes": [
+                      {
+                        "width": 541,
+                        "height": 1024
+                      },
+                      {
+                        "width": 211,
+                        "height": 400
+                      },
+                      {
+                        "width": 106,
+                        "height": 200
+                      },
+                      {
+                        "width": 53,
+                        "height": 100
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 512,
+                        "height": 512,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dlcs-trial.digirati.io/iiif-resource/5/manifest/32/canvas/yabmnwl2vl-lz9r1s74",
+      "type": "Canvas",
+      "height": 6007,
+      "width": 3779,
+      "label": {
+        "en": [
+          "Verpackung"
+        ]
+      },
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Quelle"
+            ]
+          },
+          "value": {
+            "en": [
+              "DFF - Deutsches Filminstitut & Filmmuseum"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Datum"
+            ]
+          },
+          "value": {
+            "en": [
+              "24.10.2022"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Foto"
+            ]
+          },
+          "value": {
+            "en": [
+              "Roanna Rahman"
+            ]
+          }
+        }
+      ],
+      "rights": "http://creativecommons.org/licenses/by-sa/4.0/",
+      "items": [
+        {
+          "id": "https://dlcs-trial.digirati.io/iiif-resource/5/manifest/32/canvas/yabmnwl2vl-lz9r1s74/annotation-page/w4prfcbaqe-lz9r1s74",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlcs-trial.digirati.io/iiif-resource/5/manifest/32/canvas/yabmnwl2vl-lz9r1s74/annotation-page/w4prfcbaqe-lz9r1s74/annotation/2wy4g200n3d-lz9r5i35",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://dlcs-trial.digirati.io/iiif-resource/5/manifest/32/canvas/yabmnwl2vl-lz9r1s74",
+              "body": {
+                "id": "https://dlcs-trial.digirati.io/iiif-img/v2/5/32/86863100-40b9-434d-8320-dc0d99572273_2/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 6007,
+                "width": 3779,
+                "service": [
+                  {
+                    "@id": "https://dlcs-trial.digirati.io/iiif-img/v2/5/32/86863100-40b9-434d-8320-dc0d99572273_2",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 3779,
+                    "height": 6007,
+                    "sizes": [
+                      {
+                        "width": 644,
+                        "height": 1024
+                      },
+                      {
+                        "width": 252,
+                        "height": 400
+                      },
+                      {
+                        "width": 126,
+                        "height": 200
+                      },
+                      {
+                        "width": 63,
+                        "height": 100
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 512,
+                        "height": 512,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dlcs-trial.digirati.io/iiif-img/5/32/86863100-40b9-434d-8320-dc0d99572273_2/canvas/c/2",
+      "type": "Canvas",
+      "height": 1024,
+      "width": 800,
+      "label": {
+        "en": [
+          "Nebeneinander"
+        ]
+      },
+      "metadata": [
+        {
+          "label": {
+            "none": [
+              "Quelle"
+            ]
+          },
+          "value": {
+            "none": [
+              "DFF - Deutsches Filminstitut & Filmmuseum"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Foto"
+            ]
+          },
+          "value": {
+            "none": [
+              "Roanna Rahman"
+            ]
+          }
+        },
+        {
+          "label": {
+            "none": [
+              "Datum"
+            ]
+          },
+          "value": {
+            "none": [
+              "24.10.2022"
+            ]
+          }
+        }
+      ],
+      "requiredStatement": {
+        "label": {
+          "en": [
+            "Attribution"
+          ]
+        },
+        "value": {
+          "en": [
+            "Roanna Rahman"
+          ]
+        }
+      },
+      "rights": "http://creativecommons.org/licenses/by-sa/4.0/",
+      "thumbnail": [
+        {
+          "id": "https://dlcs-trial.digirati.io/thumbs/5/32/86863100-40b9-434d-8320-dc0d99572273_2/full/126,200/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "service": [
+            {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-trial.digirati.io/thumbs/v2/5/32/86863100-40b9-434d-8320-dc0d99572273_2",
+              "@type": "ImageService2",
+              "profile": "http://iiif.io/api/image/2/level0.json",
+              "sizes": [
+                {
+                  "width": 644,
+                  "height": 1024
+                },
+                {
+                  "width": 252,
+                  "height": 400
+                },
+                {
+                  "width": 126,
+                  "height": 200
+                },
+                {
+                  "width": 63,
+                  "height": 100
+                }
+              ]
+            },
+            {
+              "@context": "http://iiif.io/api/image/3/context.json",
+              "id": "https://dlcs-trial.digirati.io/thumbs/5/32/86863100-40b9-434d-8320-dc0d99572273_2",
+              "type": "ImageService3",
+              "profile": "level0",
+              "sizes": [
+                {
+                  "width": 644,
+                  "height": 1024
+                },
+                {
+                  "width": 252,
+                  "height": 400
+                },
+                {
+                  "width": 126,
+                  "height": 200
+                },
+                {
+                  "width": 63,
+                  "height": 100
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlcs-trial.digirati.io/iiif-img/5/32/86863100-40b9-434d-8320-dc0d99572273_2/canvas/c/2/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlcs-trial.digirati.io/iiif-img/5/32/86863100-40b9-434d-8320-dc0d99572273_2/canvas/c/2/page/image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://dlcs-trial.digirati.io/iiif-img/5/32/86863100-40b9-434d-8320-dc0d99572273_2/canvas/c/2#xywh=0,0,660,1024",
+              "body": {
+                "id": "https://dlcs-trial.digirati.io/iiif-img/5/32/86863100-40b9-434d-8320-dc0d99572273_2/full/644,1024/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1024,
+                "width": 600,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://dlcs-trial.digirati.io/iiif-img/v2/5/32/86863100-40b9-434d-8320-dc0d99572273_2",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "width": 3779,
+                    "height": 6007,
+                    "id": "https://dlcs-trial.digirati.io/iiif-img/v2/5/32/86863100-40b9-434d-8320-dc0d99572273_2"
+                  },
+                  {
+                    "@context": "http://iiif.io/api/image/3/context.json",
+                    "id": "https://dlcs-trial.digirati.io/iiif-img/5/32/86863100-40b9-434d-8320-dc0d99572273_2",
+                    "type": "ImageService3",
+                    "profile": "level2",
+                    "width": 3779,
+                    "height": 6007
+                  }
+                ]
+              }
+            },
+            {
+              "id": "https://dlcs-trial.digirati.io/iiif-img/5/32/86863100-40b9-434d-8320-dc0d99572273_1/canvas/c/1/page/image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://dlcs-trial.digirati.io/iiif-img/5/32/86863100-40b9-434d-8320-dc0d99572273_2/canvas/c/2#xywh=758,0,540,1024",
+              "body": {
+                "id": "https://dlcs-trial.digirati.io/iiif-img/5/32/86863100-40b9-434d-8320-dc0d99572273_1/full/541,1024/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1024,
+                "width": 664,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://dlcs-trial.digirati.io/iiif-img/v2/5/32/86863100-40b9-434d-8320-dc0d99572273_1",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "width": 2846,
+                    "height": 5388,
+                    "id": "https://dlcs-trial.digirati.io/iiif-img/v2/5/32/86863100-40b9-434d-8320-dc0d99572273_1"
+                  },
+                  {
+                    "@context": "http://iiif.io/api/image/3/context.json",
+                    "id": "https://dlcs-trial.digirati.io/iiif-img/5/32/86863100-40b9-434d-8320-dc0d99572273_1",
+                    "type": "ImageService3",
+                    "profile": "level2",
+                    "width": 2846,
+                    "height": 5388
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dlcs-trial.digirati.io/iiif-resource/5/manifest/32/canvas/13n1kfgnjp4l-lz9r4ry0",
+      "type": "Canvas",
+      "height": 5012,
+      "width": 4000,
+      "label": {
+        "en": [
+          "Detail"
+        ]
+      },
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Quelle"
+            ]
+          },
+          "value": {
+            "en": [
+              "DFF - Deutsches Filminstitut & Filmmuseum"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Datum"
+            ]
+          },
+          "value": {
+            "en": [
+              "24.10.2022"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Foto"
+            ]
+          },
+          "value": {
+            "en": [
+              "Roanna Rahman"
+            ]
+          }
+        }
+      ],
+      "requiredStatement": {
+        "label": {
+          "en": [
+            "Attribution"
+          ]
+        },
+        "value": {
+          "en": [
+            "Roanna Rahman"
+          ]
+        }
+      },
+      "rights": "http://creativecommons.org/licenses/by-sa/4.0/",
+      "items": [
+        {
+          "id": "https://dlcs-trial.digirati.io/iiif-resource/5/manifest/32/canvas/13n1kfgnjp4l-lz9r4ry0/annotation-page/dkladfdcv6-lz9r4ry0",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlcs-trial.digirati.io/iiif-resource/5/manifest/32/annotation/jn3wx3l9sp-lz9r4rxz",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://dlcs-trial.digirati.io/iiif-resource/5/manifest/32/canvas/13n1kfgnjp4l-lz9r4ry0",
+              "body": {
+                "id": "https://dlcs-trial.digirati.io/iiif-img/v2/5/32/86863100-40b9-434d-8320-dc0d99572273_3/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 5012,
+                "width": 4000,
+                "service": [
+                  {
+                    "@id": "https://dlcs-trial.digirati.io/iiif-img/v2/5/32/86863100-40b9-434d-8320-dc0d99572273_3",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 4000,
+                    "height": 5012,
+                    "sizes": [
+                      {
+                        "width": 817,
+                        "height": 1024
+                      },
+                      {
+                        "width": 319,
+                        "height": 400
+                      },
+                      {
+                        "width": 160,
+                        "height": 200
+                      },
+                      {
+                        "width": 80,
+                        "height": 100
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 512,
+                        "height": 512,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

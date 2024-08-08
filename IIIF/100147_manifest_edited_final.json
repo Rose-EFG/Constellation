@@ -1,0 +1,284 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://dlcs-trial.digirati.io/iiif-manifest/5/91/614880e6-59c1-4313-824a-9addd2f72640_1",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "La Lanterne Magique"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Jahr"
+        ]
+      },
+      "value": {
+        "en": [
+          "Circa 1765"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Druckgraphiker*in"
+        ]
+      },
+      "value": {
+        "en": [
+          "Jean Ouvrier"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Vorlage"
+        ]
+      },
+      "value": {
+        "en": [
+          "Johann Eleazar Schenau"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Inventarnummer"
+        ]
+      },
+      "value": {
+        "en": [
+          "100147"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Generated On"
+        ]
+      },
+      "value": {
+        "en": [
+          "2024-07-30 20:51:09Z"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "Druckgrafik, vermutlich Kupferstich, hergestellt von Jean Ouvrier nach einer Vorlage von Johann Eleazar Schenau. Gewidmet ist sie dem Regenten der Kurpfalz. "
+    ]
+  },
+  "requiredStatement": {
+    "label": {
+      "en": [
+        "Fotograf*in"
+      ]
+    },
+    "value": {
+      "en": [
+        "Roanna Rahman"
+      ]
+    }
+  },
+  "rights": "http://creativecommons.org/publicdomain/mark/1.0/",
+  "thumbnail": [
+    {
+      "id": "https://dlcs-trial.digirati.io/thumbs/5/91/614880e6-59c1-4313-824a-9addd2f72640_1/full/146,200/0/default.jpg",
+      "type": "Image",
+      "format": "image/jpeg",
+      "service": [
+        {
+          "@id": "https://dlcs-trial.digirati.io/thumbs/v2/5/91/614880e6-59c1-4313-824a-9addd2f72640_1",
+          "@type": "ImageService2",
+          "profile": "http://iiif.io/api/image/2/level0.json",
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "sizes": [
+            {
+              "width": 745,
+              "height": 1024
+            },
+            {
+              "width": 291,
+              "height": 400
+            },
+            {
+              "width": 146,
+              "height": 200
+            },
+            {
+              "width": 73,
+              "height": 100
+            }
+          ]
+        },
+        {
+          "@context": "http://iiif.io/api/image/3/context.json",
+          "id": "https://dlcs-trial.digirati.io/thumbs/5/91/614880e6-59c1-4313-824a-9addd2f72640_1",
+          "type": "ImageService3",
+          "profile": "level0",
+          "sizes": [
+            {
+              "width": 745,
+              "height": 1024
+            },
+            {
+              "width": 291,
+              "height": 400
+            },
+            {
+              "width": 146,
+              "height": 200
+            },
+            {
+              "width": 73,
+              "height": 100
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "https://dlcs-trial.digirati.io/iiif-img/5/91/614880e6-59c1-4313-824a-9addd2f72640_1/canvas/c/1",
+      "type": "Canvas",
+      "height": 5079,
+      "width": 3695,
+      "label": {
+        "en": [
+          "Gesamtansicht"
+        ]
+      },
+      "metadata": [
+        {
+          "label": {
+            "none": [
+              "Quelle"
+            ]
+          },
+          "value": {
+            "none": [
+              "DFF - Deutsches Filminstitut & Filmmuseum"
+            ]
+          }
+        }
+      ],
+      "requiredStatement": {
+        "label": {
+          "en": [
+            "Fotograf*in"
+          ]
+        },
+        "value": {
+          "en": [
+            "Roanna Rahman"
+          ]
+        }
+      },
+      "rights": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "thumbnail": [
+        {
+          "id": "https://dlcs-trial.digirati.io/thumbs/5/91/614880e6-59c1-4313-824a-9addd2f72640_1/full/146,200/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "service": [
+            {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://dlcs-trial.digirati.io/thumbs/v2/5/91/614880e6-59c1-4313-824a-9addd2f72640_1",
+              "@type": "ImageService2",
+              "profile": "http://iiif.io/api/image/2/level0.json",
+              "sizes": [
+                {
+                  "width": 745,
+                  "height": 1024
+                },
+                {
+                  "width": 291,
+                  "height": 400
+                },
+                {
+                  "width": 146,
+                  "height": 200
+                },
+                {
+                  "width": 73,
+                  "height": 100
+                }
+              ]
+            },
+            {
+              "@context": "http://iiif.io/api/image/3/context.json",
+              "id": "https://dlcs-trial.digirati.io/thumbs/5/91/614880e6-59c1-4313-824a-9addd2f72640_1",
+              "type": "ImageService3",
+              "profile": "level0",
+              "sizes": [
+                {
+                  "width": 745,
+                  "height": 1024
+                },
+                {
+                  "width": 291,
+                  "height": 400
+                },
+                {
+                  "width": 146,
+                  "height": 200
+                },
+                {
+                  "width": 73,
+                  "height": 100
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlcs-trial.digirati.io/iiif-img/5/91/614880e6-59c1-4313-824a-9addd2f72640_1/canvas/c/1/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlcs-trial.digirati.io/iiif-img/5/91/614880e6-59c1-4313-824a-9addd2f72640_1/canvas/c/1/page/image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://dlcs-trial.digirati.io/iiif-img/5/91/614880e6-59c1-4313-824a-9addd2f72640_1/canvas/c/1",
+              "body": {
+                "id": "https://dlcs-trial.digirati.io/iiif-img/5/91/614880e6-59c1-4313-824a-9addd2f72640_1/full/745,1024/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1024,
+                "width": 745,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://dlcs-trial.digirati.io/iiif-img/v2/5/91/614880e6-59c1-4313-824a-9addd2f72640_1",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "width": 3695,
+                    "height": 5079,
+                    "id": "https://dlcs-trial.digirati.io/iiif-img/v2/5/91/614880e6-59c1-4313-824a-9addd2f72640_1"
+                  },
+                  {
+                    "@context": "http://iiif.io/api/image/3/context.json",
+                    "id": "https://dlcs-trial.digirati.io/iiif-img/5/91/614880e6-59c1-4313-824a-9addd2f72640_1",
+                    "type": "ImageService3",
+                    "profile": "level2",
+                    "width": 3695,
+                    "height": 5079
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
